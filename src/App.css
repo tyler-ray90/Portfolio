@@ -1,19 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Gruppo&family=Nothing+You+Could+Do&display=swap');
+
+
 .App {
   text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1 {
+  font-family: 'Gruppo', cursive;
+  letter-spacing: 25px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  font-weight: 1000;
+  margin-top: 50px;
+  margin-left: 65px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Profile {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
 }
 
-.App-header {
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +34,5 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
