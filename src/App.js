@@ -1,6 +1,9 @@
 import './App.css';
 
+import SinglePagePDFViewer from './components/PDF/single-page';
+import AllPagesPDFViewer from './components/PDF/all-pages';
 
+import samplePDF from './resume.pdf';
 
 // Social Icon import 
 import { SocialIcon } from 'react-social-icons';
@@ -36,6 +39,12 @@ function App() {
       } />
       <Route exact path = "/contact" render={(props) => 
       <Contact />
+      }/>
+      <Route exact path = "/resume" render={() => 
+      <SinglePagePDFViewer pdf={samplePDF} />
+      } />
+      <Route exact path = "/resume" render={() => 
+      <AllPagesPDFViewer pdf={samplePDF} />
       }/>
         <footer><strong>Copyright &copy; All Rights Reserved 2021 Tyler Ray</strong> </footer>
       </Switch>
