@@ -99,9 +99,9 @@ footer {
 }
 
 
-@media only screen and (min-device-width: 600px) {
+@media only screen and (max-device-width: 605px) {
     .App {
-      width: 560px;
+      width: 605px;
     }
 }
 
