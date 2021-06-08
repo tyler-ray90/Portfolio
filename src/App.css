@@ -8,7 +8,32 @@
   margin: 0;
 }
 
-.Social {
+.tr, .portfolio, .contact {
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  font-family: 'Gruppo', cursive;
+  /* font-weight: bold; */
+  
+}
+
+.tr {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  background: #fff;
+  border: 3px solid rgb(38, 202, 194);
+  color: #000;
+  text-align: center;
+  font-family: 'Gruppo', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
   margin: 10px;
 }
 
@@ -35,10 +60,12 @@ h2, h3 {
 
 .job-title {
   font-size: 30px;
+  font-style: italic;
 }
 
 .role {
   font-size: 25px;
+  font-style: italic;
 }
 
 .Profile {
@@ -54,6 +81,7 @@ h2, h3 {
 
 footer {
   font-size: 20px;
+  margin-top: 100px;
   border-top: 1px solid;
 }
 
