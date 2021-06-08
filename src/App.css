@@ -15,22 +15,30 @@
 h1 {
   font-family: 'Gruppo', cursive;
   letter-spacing: 25px;
-  font-size: 60px;
+  font-size: 70px;
   display: flex;
   justify-content: center;
   font-weight: 1000;
-  margin-top: 50px;
   margin-left: 65px;
 }
 
 h2, h3 {
   font-family: 'Gruppo', cursive;
   font-size: 25px;
+  font-weight: 550;
 }
 
 .Quote {
-  font-weight: bold;
+  font-weight: 1000;
   font-size: 30px;
+}
+
+.job-title {
+  font-size: 30px;
+}
+
+.role {
+  font-size: 25px;
 }
 
 .Profile {
@@ -46,7 +54,9 @@ h2, h3 {
 
 footer {
   font-size: 20px;
+  border-top: 1px solid;
 }
+
 
 
 
