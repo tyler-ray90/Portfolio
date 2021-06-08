@@ -99,12 +99,12 @@ footer {
 }
 
 
-@media screen and (max-width: 600px ) {
+@media screen and (min-width: 600px ) {
     .App {
-      width: 600px;
+      min-width: 600px;
     }
     nav {
-      width: 600px;
+      min-width: 600px;
     }
     
 }
