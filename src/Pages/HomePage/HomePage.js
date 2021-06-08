@@ -8,7 +8,7 @@ function HomePage(props) {
         <h3 className="role">Full Stack Developer</h3>
         <img className="Profile" alt="Profile"src={Profile} />
         <h2 className="Quote">“The man who moves a mountain begins by carrying away small stones.” ― Confucius, Confucius: The Analects</h2>
-        <h2 className="About">As a software engineer, I strongly believe attitude is the core fundamental principal of becoming successful. An attitude of "I can, and I will" pushes us to succeed and grow. An attitude of compassion for yourself and others forms connection. An attitude of patience and perseverance produces creativity. Attitude is the foundation of which we can turn impossibility into possibility.
+        <h2 className="About">As a software engineer, I strongly believe attitude is the core fundamental principle of becoming successful. An attitude of "I can, and I will" pushes us to succeed and grow. An attitude of compassion for yourself and others forms connection. An attitude of patience and perseverance produces creativity. Attitude is the foundation of which we can turn impossibility into possibility.
 
 
         <br />
