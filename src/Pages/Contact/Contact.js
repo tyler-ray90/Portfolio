@@ -1,7 +1,12 @@
+
+
 function Contact(props) {
     return (
-        <div>
-            This is the Contact Page
+        <div className="contact-info">
+            <p>Phone: (603)-933-0011</p>
+            <p>Email: Tyler.P.Ray@icloud.com</p>
+            
+            
         </div>
     )
 };

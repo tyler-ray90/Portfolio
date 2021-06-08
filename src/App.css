@@ -12,7 +12,7 @@
   text-decoration: none;
   color: black;
   font-size: 35px;
-  font-family: 'Gruppo', cursive;
+  font-family: 'Gruppo', cursive, sans-serif;
   /* font-weight: bold; */
   
 }
@@ -26,7 +26,7 @@
   border: 3px solid rgb(38, 202, 194);
   color: #000;
   text-align: center;
-  font-family: 'Gruppo', cursive;
+  font-family: 'Gruppo', cursive, sans-serif;
   font-size: 30px;
   font-weight: bold;
 }
@@ -38,9 +38,9 @@ nav {
 }
 
 h1 {
-  font-family: 'Gruppo', cursive;
+  font-family: 'Gruppo', cursive, sans-serif;
   letter-spacing: 25px;
-  font-size: 70px;
+  font-size: 75px;
   display: flex;
   justify-content: center;
   font-weight: 1000;
@@ -48,7 +48,7 @@ h1 {
 }
 
 h2, h3 {
-  font-family: 'Gruppo', cursive;
+  font-family: 'Gruppo', cursive, sans-serif;
   font-size: 25px;
   font-weight: 550;
 }
@@ -79,11 +79,26 @@ h2, h3 {
   padding: 0 40px 0 40px;
 }
 
+.contact-info {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Gruppo', cursive, sans-serif;
+}
+
+a {
+  display: block;
+  font-family: 'Gruppo', cursive, sans-serif;
+  font-size: 50px;
+  margin: 10px;
+}
+
 footer {
   font-size: 20px;
   margin-top: 100px;
   border-top: 1px solid;
 }
+
+
 
 
 

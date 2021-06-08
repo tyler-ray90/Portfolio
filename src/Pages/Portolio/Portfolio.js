@@ -1,6 +1,10 @@
 function Portfolio(props) {
     return (
-        <div>This is the Porfolio page</div>
+        <div className="projects">
+        <a href="https://low-rent.netlify.app/">Low-Rent</a>
+        <a href="https://game-review-project.herokuapp.com/">MetaReviews</a>
+
+        </div>
     )
 };
 
