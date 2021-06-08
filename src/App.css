@@ -99,7 +99,7 @@ footer {
 }
 
 
-@media screen and (min-width: 600px ) {
+@media screen and (max-width: 600px ) {
     .App {
       min-width: 600px;
     }
