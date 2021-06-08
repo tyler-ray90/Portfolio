@@ -101,7 +101,10 @@ footer {
 
 @media screen and (max-width: 600px ) {
     .App {
-      width: 605px;
+      width: 600px;
+    }
+    nav {
+      width: 600px;
     }
     
 }
